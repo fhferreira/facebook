@@ -1,7 +1,7 @@
 {
-    "name": "boparaiamrit/facebook",
+    "name": "pingpong/facebook",
     "description": "Facebook PHP SDK Package for Laravel 4",
-    "keywords": ["Facebook", "laravel", "laravel4"],
+    "keywords": ["Facebook", "oauth", "pingpong", "laravel", "laravel4"],
     "authors": [
         {
             "name": "boparaiamrit",
@@ -10,11 +10,13 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.0.x"
+    },
+    "require-dev": {
+        "illuminate/support": "4.*"
     },
     "autoload": {
         "psr-0": {
-            "Boparaiamrit\\Facebook": "src/"
+            "Pingpong\\Facebook": "src/"
         }
     },
     "minimum-stability": "dev"
