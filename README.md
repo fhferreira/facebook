@@ -18,7 +18,7 @@ Now open up `app/config/app.php` and add the service provider to your `providers
 Now add the alias.
 
     'aliases' => array(
-        'Facebook' => 'Pingpong\Facebook\FacebookFacade',
+        'Facebook' => 'Pingpong\Facebook\Facades\Facebook',
     )
 
 
